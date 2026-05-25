@@ -1,1 +1,9 @@
-# mnist-neural-network
+# Machine Learning - Neural Networks
+
+This project uses the MNIST Dataset available at:
+https://www.kaggle.com/datasets/amineipad/mnist-dataset
+
+The dataset is distributed under the MIT License.
+Copyright (c) Amine IPAD
+
+A copy of the license is provided in the file dataset-licence.md in this repository.
