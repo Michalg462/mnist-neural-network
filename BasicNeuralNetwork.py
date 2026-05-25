@@ -42,7 +42,7 @@ class TrainMLP:
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=learning_rate)
         self.epochs = epochs
 
-        self.train_loader, self.val_loader = DataPrep.prepare_training_data("archive/trainingSet/trainingSet")
+        self.train_loader, self.val_loader = DataPrep.prepare_training_data("archive/trainingSet")
 
     def start_training(self, output_path):
         # Starts the learning process, displays statistics after each epoch
